@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar-atas {
+    display: block;
+}
+
+#navigator {
+    color:black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container_1 {
+    margin-left: 75px;
+    display: block;
+    margin-top:50px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    position: fixed;
+}
+
+.navbar_1,
+.navbar_2,
+.navbar_3 {
+    display: flex;
+    word-spacing: 5px;
+}
+
+.navbar_1 h3,
+.navbar_2 h3,
+.navbar_3 h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+}
+
+.navbar_1 h3:hover,
+.navbar_2 h3:hover,
+.navbar_3 h3:hover {
+    color: gray;
+}
+
+.navbar_1 h2,
+.navbar_2 h2 {
+    margin-left: 20px;
+    font-size: 29px;
+    margin-top: -8px;
+}
+
+#navbar-resume {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resume-kanan-tulisan {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 80px;
+}
+
+.resume-kanan-tulisan h3 {
+    font-weight: 1700;
+}
+
+.resume-kanan-tulisan h5 {
+    font-weight: 100;
+}
+
+.resume-kiri {
+    margin-top: 270px;
+    padding-right: 210px;
+    padding-left: 70px;
+    height:auto;
+    margin-left: 60px;
+    font-family: 'Roboto Mono', monospace;
+    font-size:14px;
+    display: block;
+}
+
+.resume-kanan-gambar {
+    width:35%;
+    height:auto;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.background-resume {
+    width:200px;
+    height:auto;
+    background-color: black;
+    color:white;
+    text-align: center;
+    position: fixed;
+    margin-left: -80px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+#background-resume-1, #background-resume-2, #background-resume-3 {
+    padding:15px;
+    cursor:pointer;
+}
+
+#background-resume-1:hover,
+#background-resume-2:hover,
+#background-resume-3:hover {
+    background-color: rgb(225, 224, 224);
+    color:black;
+}
+
+
+#edukasi h1 {
+    font-size:65px;
+    margin-bottom: 70px;
+    margin-left:5px;
+    margin-top:80px;
+}
+
+.background-edukasi-1 img, .background-edukasi-2 img {
+    width:200px;
+    height:100px;
+    margin-bottom:90px;
+    margin-left: 27px;
+    margin-top:10px;
+}
+
+.background-edukasi-1-1 {
+    padding:20px;
+    margin-top: 170px;
+    margin-bottom:55px;
+    margin-left:-47px;
+}
+
+.background-edukasi-1-2 {
+    padding: 20px;
+    margin-top: 120px;
+    margin-bottom: 55px;
+    margin-left:-45px;
+}
+
+#kerja h1 {
+    font-size:65px;
+}
+
+.background-pengalamankerja-1 img {
+    width: 250px;
+    height: 130px;
+    margin-left: -10px;
+    margin-top:80px;
+}
+
+.background-pengalamankerja-1-1 {
+    padding: 20px;
+    margin-top: 355px;
+    margin-bottom: 55px;
+    margin-left: -38px;
+}
+
+.background-pengalamankerja-2 img {
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top:120px;
+}
+
+.background-pengalamankerja-1-2 {
+    padding: 20px;
+    margin-left: -35px;
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+
+.background-pengalamankerja-3 img {
+    width: 250px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.background-pengalamankerja-1-3 {
+    padding: 20px;
+    margin-left: -33px;
+    margin-top: 110px;
+    margin-bottom: 55px;
+}
+
+#organisasi h1 {
+    font-size:65px;
+}
+
+.background-organisasi-1 img {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 90px;
+    margin-left:26px;
+    margin-top:98px;
+}
+
+.background-organisasi-1-1 {
+    padding: 20px;
+    margin-left: -28px;
+    margin-top: 310px;
+    margin-bottom: 55px;
+}
+
+.background-organisasi-2 img {
+    width: 200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-top:-15px;
+}
+
+.background-organisasi-1-2 {
+    padding: 20px;
+    margin-left: -28px;
+    margin-top: 130px;
+    margin-bottom: 55px;
+}
+
+.background-organisasi-3 img {
+    width: 200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-top: 45px;
+}
+
+.background-organisasi-1-3 {
+    padding: 20px;
+    margin-left: -28px;
+    margin-top: 140px;
+}
+
+#copyright {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 210px;
+    margin-bottom:40px;
+    text-align: center;
+}
+
+.edukasi-tulisan-1, .edukasi-tulisan-2, .edukasi-tulisan-3, .edukasi-tulisan-4, .edukasi-tulisan-5, .edukasi-tulisan-6, .edukasi-tulisan-7, .edukasi-tulisan-8 {
+    display: none;
+}
+
+@media only screen and (max-width: 520px) {
+    .container_1 {
+        margin-left: 55px;
+    }
+    .resume-kiri {
+        display: none;
+    }
+    .resume-kanan-gambar {
+        margin-left:35px;
+    }
+    #edukasi h1 {
+        margin-left: 16px;
+        font-size:50px;
+        margin-top: 120px;
+    }
+    #kerja h1 {
+        margin-left:10px;
+        margin-top:80px;
+        font-size: 50px;
+        text-align: center;
+    }
+    #organisasi h1 {
+        margin-left:-10px;
+        margin-top:80px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .edukasi-tulisan-1, .edukasi-tulisan-2, .edukasi-tulisan-3, .edukasi-tulisan-4, .edukasi-tulisan-5, .edukasi-tulisan-6, .edukasi-tulisan-7, .edukasi-tulisan-8 {
+        display: block;
+    }
+    .background-edukasi-1-1, .background-edukasi-1-2, .background-pengalamankerja-1-1, .background-pengalamankerja-1-2, .background-pengalamankerja-1-3, .background-organisasi-1-1, .background-organisasi-1-2, .background-organisasi-1-3 {
+        display: none;
+    }
+    .edukasi-tulisan-1 {
+        width:100%;
+        margin-top:-45px;
+        margin-left:25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .edukasi-tulisan-1 h3 {
+        margin-bottom: 10px;
+    }
+    .edukasi-tulisan-1 h5 {
+        margin-bottom: 80px;
+    }
+    .edukasi-tulisan-2 {
+        width:100%;
+        margin-top:-45px;
+        margin-left:25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .edukasi-tulisan-2 h3 {
+        margin-bottom: 10px;
+    }
+    .edukasi-tulisan-2 h5 {
+        margin-bottom: 30px;
+    }
+    .background-pengalamankerja-1 img {
+        margin-left: -15px;
+        margin-top:80px;
+    }
+    .edukasi-tulisan-3 {
+        width:100%;
+        margin-top:35px;
+        margin-left:25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .edukasi-tulisan-3 h3 {
+        margin-bottom: 10px;
+    }
+    .edukasi-tulisan-3 h5 {
+        margin-bottom: 30px;
+    }
+    .background-pengalamankerja-2 img {
+        margin-top:70px;
+    }
+    .edukasi-tulisan-4 {
+        width:100%;
+        margin-top:35px;
+        margin-left:25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .edukasi-tulisan-4 h3 {
+        margin-bottom: 10px;
+    }
+    .edukasi-tulisan-4 h5 {
+        margin-bottom: 30px;
+    }
+    .background-pengalamankerja-3 img {
+        margin-left:-5px;
+        margin-top:70px;
+    }
+    .edukasi-tulisan-5 {
+        width:100%;
+        margin-top:-40px;
+        margin-left:25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .edukasi-tulisan-5 h3 {
+        margin-bottom: 10px;
+    }
+    .edukasi-tulisan-5 h5 {
+        margin-bottom: 80px;
+    }
+    .edukasi-tulisan-6 {
+        width:100%;
+        margin-top:-40px;
+        margin-left:25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .edukasi-tulisan-6 h3 {
+        margin-bottom: 10px;
+    }
+    .edukasi-tulisan-6 h5 {
+        margin-bottom: 80px;
+    }
+    .background-organisasi-2 img{
+        margin-left: 12px;
+    }
+    .edukasi-tulisan-7 {
+        width:100%;
+        margin-top:40px;
+        margin-left:25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .edukasi-tulisan-7 h3 {
+        margin-bottom: 10px;
+    }
+    .edukasi-tulisan-7 h5 {
+        margin-bottom: 30px;
+    }
+    .background-organisasi-3 img{
+        margin-left: 12px;
+    }
+    .edukasi-tulisan-8 {
+        width:100%;
+        margin-top:40px;
+        margin-left:25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .edukasi-tulisan-8 h3 {
+        margin-bottom: 10px;
+    }
+    .edukasi-tulisan-8 h5 {
+        margin-bottom: 80px;
+    }
+
+}

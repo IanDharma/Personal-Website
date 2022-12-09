@@ -1,0 +1,133 @@
+<html>
+  
+  <head>
+    <title>Ian Hendrawan - Home</title>
+    <link rel="stylesheet" href="./social-media-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="homepage1.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <head>
+  
+  <body>
+    
+    <div class="bagianatas">
+      
+      <!--navbar Mobile-->
+      <nav>
+        <div class="background-dropdown">
+          <i class="fa fa-bars" id="bar" style="font-size:36px"></i>
+          <h3 id="dropdown-mobile-1">Home</h3>
+          <a id="navigator-2" href="resumepage0.html"><h3 id="dropdown-mobile-2">Resume</h3></a>
+          <h3 id="dropdown-mobile-3">Blog</h3>
+        </div>
+      </nav>
+      
+      <!--navbar PC-->
+      <div class="container_1">
+        <div class="navbar">
+          <div class="navbar_1">
+            <h3>01 : Home</h3>
+            <h2>|</h2>
+          </div>
+          <div class="navbar_2">
+            <a id="navigator-2" href="resumepage0.html"><h3>02  :  Resume</h3></a>
+            <h2>|</h2>
+          </div>
+          <div class="navbar_3">
+            <h3>03  :  Blog</h3>
+          </div>
+        </div>
+      </div>
+      
+      <!--animasi text landing page-->
+      <div id="text-box">
+        <h1>Hello I am<br><span id="typed" style="white-space:pre;" class="typed"></span></h1>
+      </div> 
+    </div>
+
+    <!--perkenalan diri dan media sosial-->
+    <div class="bagianbawah">
+      
+      <div class="introduction">
+        <h1>Hi There!</h1>
+        <p>My name is Ian Hendrawan. I am passionate about game, coding and movie. Eventually, I plan to establish a YouTube channel dedicated to game, in order to fund a self-sustaining my life.</p>
+        <p>Currently I am:</p>
+        <ul>
+          <li>Teaching introductory programming concepts on YouTube</li>
+          <li>Making some projects with HTML, CSS and Javascript</li>
+          <li>Playing video games every day</li>
+        </ul>
+      </div>
+      
+      <div class="socialmedia">
+        <h1>Social Media</h1>
+        <div class="social-menu">
+          <ul>
+              <li><a href="https://github.com/sanketbodke" target="blank"><i class="fab fa-github"></i></i></a></li>
+              <li><a href="https://www.instagram.com/imsanketbodke/" target="blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://codepen.io/sanketbodke"><i class="fab fa-codepen" target="blank"></i></a></li>
+          </ul>
+        </div>
+    <div class="email">
+      <div class="envelope-position">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </div>
+      <h3>ianhendrawan3@gmail.com</h3>
+    </div>
+      </div>
+    
+    </div>
+    
+    <div class="copyright">
+      <p>&#169; copyright by Ian Hendrawan </p>
+    </div>
+    
+    <script>
+        var type = new Typed(".typed", {
+            strings: ["Ian Hendrawan", "Programmer and<br> College Student", "Gamer,<br> 100% Chinese<br> and Non-Smoker<br>"],
+            typeSpeed: 100,
+            startDelay: 0,
+            backSpeed: 10,
+            backDelay: 2000,
+            loop: true,
+            cursorChar: "|",
+            contentType: 'html'
+        });
+
+        let input = document.querySelector('.background-dropdown');
+        let toggle = 0;
+
+        function dropdown() {
+        input.addEventListener('click', () => {
+        if (toggle == 0) {
+        document.getElementById("dropdown-mobile-1").style.display="block";
+        document.getElementById("dropdown-mobile-2").style.display="block";
+        document.getElementById("dropdown-mobile-3").style.display="block";
+        var elements = document.getElementsByClassName("background-dropdown");
+        document.getElementById("bar").style.width="431px";
+        document.getElementById("bar").style.transition = "width 0.5s";
+        for (var i = 0; i < elements.length; i++) {
+        elements[i].style.width=(465+"px");
+        }
+        toggle++;
+        } else {
+        document.getElementById("dropdown-mobile-1").style.display="none";
+        document.getElementById("dropdown-mobile-2").style.display="none";
+        document.getElementById("dropdown-mobile-3").style.display="none";
+        var elements = document.getElementsByClassName("background-dropdown");
+        document.getElementById("bar").style.width="36px";
+        for (var i = 0; i < elements.length; i++) {
+        elements[i].style.width=(80+"px");
+        }
+        toggle--;
+        }
+        })
+        }
+
+        dropdown();
+    </script>
+
+  </body>   
+</html>
